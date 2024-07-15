@@ -1,0 +1,9 @@
+.first-sec{
+
+    display: flex;
+    justify-content: space-between;
+}
+.first-sec-nav > ul{
+   list-style:none;
+   
+}
