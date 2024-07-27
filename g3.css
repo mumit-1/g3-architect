@@ -107,8 +107,12 @@ header {
   margin-bottom: 15px;
 }
 @media screen and (max-width: 700px) {
+
   .first-sec{
+    margin-top: 10px;
     padding: 10px 5px;
+    flex-direction: column;
+    gap: 15px;
   }
   .first-sec-name{
     font-size: 20px;
