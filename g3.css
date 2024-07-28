@@ -171,7 +171,7 @@ header {
 .fourth-sec-facts{
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  
+  width: 100%;
   margin-top: 30px;
 }
 .fact{
@@ -181,9 +181,11 @@ header {
   border: 2px solid rgb(255, 166, 49);
   border-radius: 5px;
   margin: 0px auto;
+
 }
 .fact-pic{
   margin-bottom: 10px;
+  width: 100%;
 }
 .fact > .every-title{
   color: rgb(66, 66, 66);
@@ -203,8 +205,11 @@ text-align: center;
     text-align: center;
   }
    .fourth-sec-facts{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     gap: 50px;
+    
+    margin: 0 auto;
+    margin-top: 30px;
    }
    
 }
@@ -218,7 +223,9 @@ text-align: center;
   margin-top: 50px;
   
 }
-
+.sponsor > img {
+  filter: grayscale(100%);
+}
 .fifth-sec-first{
   width: 500px;
   margin: 0px auto;
