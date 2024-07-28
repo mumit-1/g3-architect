@@ -67,9 +67,9 @@ header {
 }
 .first-title {
   color: rgb(19, 19, 19);
-  font-family: Work Sans;
-  font-size: 4rem;
-  font-weight: 700;
+  font-family:fantasy;
+  font-size: 5rem;
+  font-weight: 500;
   line-height: 75px;
   letter-spacing: 1px;
   text-align: center;
@@ -111,12 +111,19 @@ header {
     flex-direction: column;
     gap: 15px;
   }
+  .first-title{
+    font-size: 4em;
+  }
   .first-sec-name {
     font-size: 20px;
     line-height: 19px;
   }
   .first-banner {
     padding: 0px 10px;
+   margin-top: 0px;
+  }
+  .nav-link{
+    font-size: 15px;
   }
 }
 /* second-sec */
