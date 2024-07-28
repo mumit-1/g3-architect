@@ -200,9 +200,7 @@ header {
   text-align: left;
   margin-top: 15px;
 }
-.third-sec-img {
-  width: 100%;
-}
+
 .third-sec-btn {
   border-radius: 8px;
   background: rgb(255, 144, 14);
@@ -223,6 +221,9 @@ header {
     width: calc(100% - 40px);
     gap: 80px;
   }
+  .third-sec-img {
+  width: 100%;
+}
   .third-sec-btn-div {
     display: flex;
     align-items: center;
